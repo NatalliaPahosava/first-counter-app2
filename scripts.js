@@ -7,16 +7,15 @@ function increase(){
 // get element from html
 //    wrong const count= counterEl+1
 //    counterEl.innerText= count
-count=count+1
+count++
 counterEl.innerHTML=count
-if(count<0){counterEl.innerHTML=0}
 }
 
 //function that decreases
 function decrease(){
-    count--
-    counterEl.innerText=count
-    if(count<0){counterEl.innerText=0}
+   if(count<=0) {counterEl.innerText=0} 
+   else if (count>0){count--
+   counterEl.innerText=count}  
 }
 
 ///bonus function that prints total
