@@ -20,7 +20,7 @@ function decrease () {
     counterEl.innerHTML = count
   }
 }
-function reseat(){
+function clean(){
   count=0
   counterEl.innerHTML = count
 }
